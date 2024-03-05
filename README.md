@@ -1,8 +1,31 @@
-# React + Vite
+# Contador React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto de React llamado "Contador React" es una aplicación simple que utiliza props y useState para actualizar una variable numérica que crece y decrece dependiendo del botón que se presiona.
 
-Currently, two official plugins are available:
+## Demo
+Puedes ver una demostración del proyecto en [Netlify](https://react-with-count.netlify.app/).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades
+
+Incrementar el contador: Al presionar el botón de incremento, el número aumentará en una unidad.
+Decrementar el contador: Al presionar el botón de decremento, el número disminuirá en una unidad.
+
+## Tecnologías Utilizadas
+
+- React: Una biblioteca de JavaScript para construir interfaces de usuario.
+- useState: Un hook que nos permite añadir estado a los componentes de función en React.
+- Props: Proporciona una forma de pasar datos de un componente padre a un componente hijo en React.
+  
+## Instalación
+Clona este repositorio en tu máquina local:
+
+git clone https://github.com/pablogonza37/ContadorReact
+
+## Uso
+Una vez que la aplicación esté en funcionamiento, podrás ver el contador y dos botones: uno para aumentar y otro para disminuir el contador.
+
+## Contribución
+Si deseas contribuir a este proyecto, siéntete libre de crear una nueva rama y enviar un pull request. Estamos abiertos a sugerencias y mejoras.
+
+## Autor
+Este proyecto fue creado por Pablo Gonzalez.
